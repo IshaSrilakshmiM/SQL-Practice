@@ -5,7 +5,7 @@ SELECT * FROM Customers
 WHERE CustomerID NOT BETWEEN 2 and 4 ;
 
 SELECT * FROM Customers 
-WHERE Country NOT IN ('UK');
+WHERE Country NOT IN ('UK'); 
 
 SELECT * FROM Customers
 WHERE NOT CustomerID > 50;
