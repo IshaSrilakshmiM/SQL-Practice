@@ -1,0 +1,9 @@
+SELECT SUM(Price) FROM Products;
+
+SELECT SUM(Price) AS TOTAL FROM Products;
+
+SELECT SUM(Price) AS TOTAL_WHEREE FROM Products
+WHERE Price > 18.00;
+
+SELECT SUM(Price) AS TOTAL_GROUPBY FROM Products
+GROUP BY SupplierID;
