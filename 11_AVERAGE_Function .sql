@@ -7,3 +7,4 @@ WHERE Price > 20 ;
 
 SELECT AVG(Price) AS AVERAGE_GROUPBY FROM Products
 GROUP BY CategoryID;
+
