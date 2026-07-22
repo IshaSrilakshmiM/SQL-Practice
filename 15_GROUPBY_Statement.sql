@@ -7,6 +7,7 @@ FROM Products
 GROUP BY CategoryID;
 
 SELECT CategoryID ,MIN(Price) AS total_min
+
 FROM Products
 GROUP BY CategoryID;
 
